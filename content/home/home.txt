@@ -1,6 +1,44 @@
-Title: Clear Choice Window Cleaning
+Title: Homepage
+
 ----
-Hero Text: Dirty Windows?
+
+Herobgimg: 
+
+----
+
+Herotext: Dirty Windows?
+
+----
+
+Herosubtitle:
+
+LET US FIX THAT! <br>
+MAKE THE CLEAREST CHOICE.
+
+----
+
+Heroctas: 
+
+----
+
+Contentsection: 
+
+----
+
+Servicestitle: 
+
+----
+
+Servicesimg: 
+
+----
+
+Ourservices: 
+
+----
+
+Reviews: 
+
 ----
 
 Uuid: 5l6mawwehvsuegzm

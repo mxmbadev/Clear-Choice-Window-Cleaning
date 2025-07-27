@@ -32,8 +32,8 @@
     </nav>
 
     <div class="container">
-        <h1><?= $page->title() ?></h1>
-        <h2><?= $page->heading() ?></h2>
+        <h2><?= $page->Herotext() ?></h2>
+        <h2><?= $page->Herosubtitle() ?></h2>
     </div>
 </body>
 

@@ -1,0 +1,89 @@
+title: Home
+
+tabs:
+  hero:
+    type: fields
+    fields:
+      heroBgImg:
+        label: Hero Background Image
+        type: files
+        width: 1
+        max: 1
+      heroText:
+        label: Hero Text 
+        type: textarea
+        width: 1/2
+      heroSubtitle:
+        label: Hero Subtitle
+        type: textarea
+        width: 1/2
+      heroCTAs:
+        label: Hero CTAs
+        type: structure
+        fields:
+          ctaText:
+            label: CTA Text
+            type: text
+          ctaLink:
+            label: URL Link
+            type: url
+  about:
+    type: fields
+    fields: 
+      contentSection:
+        label: Sections
+        type: structure
+        fields:
+            headingTitle:
+              type: text
+            headingSubtitle:
+              type: text
+            contentSectionText:
+              label: Parragraph
+              type: text
+            contentSectionImg:
+              label: Image
+              type: files
+              max: 1
+  services:
+    type: fields
+    fields:
+      servicesTitle:
+        label: Heading Title
+        type: text
+        width: 1/2
+      servicesImg:
+        label: Image
+        type: files
+        max: 1
+        width: 1/2
+      ourServices:
+        label: Our Services
+        type: structure
+        fields:
+          serviceName:
+            label: Service Name
+            type: text
+            required: true
+          serviceDesc:
+            label: Description
+            type: textarea
+            required: true
+  testimonials:
+    fields:
+      reviews:
+        label: Testimonials
+        type: structure
+        fields:
+          testimonialReview:
+            label: Message
+            type: textarea
+            required: true
+          testimonialAuthor:
+            label: Reviewer
+            type: text
+            required: true
+
+        
+
+      
