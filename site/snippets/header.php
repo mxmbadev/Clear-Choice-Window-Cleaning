@@ -13,3 +13,5 @@
 
 <body>
     <?php snippet(name: 'nav') ?>
+    <!-- Left and Right spacing -->
+    <div class="mx-3">

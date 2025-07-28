@@ -1,8 +1,10 @@
 <?php snippet('header') ?>
 
-    <div class="container" style="background-image: url('<?= $page->Herobgimg()->url() ?>'); background-size: cover; background-position: center;">
-        <h2><?= $page->Herotext() ?></h2>
-        <h2><?= $page->Herosubtitle() ?></h2>
+<section id="heroImage" style="background-image: url('<?= $page->Herobgimg()->toFile()->url() ?>');">
+    <div class="container">
+        <h2 class="h1 text-white"><?= $page->Herotext() ?></h2>
+        <h3 class="text-white"><?= $page->Herosubtitle() ?></h3>
     </div>
+</section>
 
 <?php snippet('footer') ?>

@@ -1,3 +1,9 @@
+/* Hero Section */
+#heroImage {
+    background-size: cover;
+    background-position: center;
+    padding: 8em 0 12em 0
+}
 
 @media (min-width: 1440px){
     .container { width: 1440px; max-width: 1440px; }
