@@ -1,8 +1,23 @@
+/* Global Settings */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+* {
+    font-family: "Lato", sans-serif;
+}
+
+:root {
+    --clearchoice-blue: #007df2;
+    --white: white;
+    --black: black;
+}
+
 /* Hero Section */
 #heroImage {
     background-size: cover;
     background-position: center;
-    padding: 8em 0 12em 0
+    padding: 8em 0 12em 0;
+    h2 { font-size: 55px; }
+    h3 { line-height: 30px; font-weight: 700; }
+    hr { background-color: var(--clearchoice-blue); opacity: 1; width: 15%; height: 6px; border-color: var(--clearchoice-blue); }
 }
 
 @media (min-width: 1440px){
