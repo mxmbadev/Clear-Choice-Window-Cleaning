@@ -7,5 +7,10 @@
         <hr>
     </div>
 </section>
+<section id="contactUs">
+    <div class="container">
+        <?php snippet('contactForm') ?>
+    </div>
+</section>
 
 <?php snippet('footer') ?>
