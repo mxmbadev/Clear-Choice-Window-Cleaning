@@ -21,7 +21,37 @@ Heroctas:
 
 ----
 
-Contentsection: 
+Contentsection:
+
+- 
+  headingtitle: Who We Are
+  headingsubtitle: About
+  contentsectiontext: >
+    Clear Choice is a licensed and insured
+    family owned business in Middle TN. We
+    have been serving our wonderful
+    community for over 20 years. Our
+    employees are well trained in all of our
+    equipment and practices. With experience
+    in a variety of settings, we are
+    confident Clear Choice can suit your
+    commercial or residential needs.
+  contentsectionimg:
+    - file://7deyp66hohrt3mmm
+- 
+  headingtitle: What We Do
+  headingsubtitle: Team
+  contentsectiontext: >
+    Cleaning is our expertise. We offer
+    various services such as window
+    cleaning, business office, and pressure
+    wash cleaning. We make sure everything
+    is sparkly clean. Rest assured; we are
+    determined to keep every customer
+    satisfied. Just read below what some of
+    our loyal customers have to say.
+  contentsectionimg:
+    - file://wxv7dl57iejb6hlk
 
 ----
 

@@ -1,13 +1,80 @@
 /* Global Settings */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 * {
-    font-family: "Lato", sans-serif;
+    font-family: "Manrope", sans-serif;
 }
 
 :root {
+    --bs-body-font-family: font-family: "Manrope", sans-serif !important;
     --clearchoice-blue: #007df2;
+    --btn-cta-hover: #0072dc;
     --white: white;
     --black: black;
+    --smooth-transition: all 0.3s ease-in-out;
+}
+
+.manrope-200 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.manrope-300 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.manrope-400 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.manrope-500 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.manrope-600 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.manrope-700 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.manrope-800 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.btn-cta {
+    background-color: var(--clearchoice-blue);
+    border-color: var(--clearchoice-blue);
+    color: var(--white);
+    transition: var(--smooth-transition);
+
+    &:hover {
+        background-color: var(--btn-cta-hover);
+        border-color: var(--btn-cta-hover);
+        color: var(--white);
+        transition: var(--smooth-transition);
+    }
 }
 
 /* Hero Section */
@@ -15,19 +82,60 @@
     background-size: cover;
     background-position: center;
     padding: 8em 0 12em 0;
-    h2 { font-size: 55px; }
-    h3 { line-height: 30px; font-weight: 700; }
-    hr { background-color: var(--clearchoice-blue); opacity: 1; width: 15%; height: 6px; border-color: var(--clearchoice-blue); }
+
+    h2 {
+        font-size: 55px;
+    }
+
+    h3 {
+        line-height: 30px;
+        font-weight: 700;
+    }
+
+    hr {
+        background-color: var(--clearchoice-blue);
+        opacity: 1;
+        width: 15%;
+        height: 6px;
+        border-color: var(--clearchoice-blue);
+    }
 }
 
-@media (min-width: 1440px){
-    .container { width: 1440px; max-width: 1440px; }
+@media (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        max-width: 1440px;
+    }
 }
 
 /* Contact Form */
 #contactUs {
+    margin-top: -50px;
     .container {
-        padding: 10px 5px;
+        background-color: #fff;
         box-shadow: 0 2px 5px #0003;
+        .row .col {
+            padding: 15px;
+            &:first-child { padding-left: 20px; }
+            &:last-child { padding: 0px 0px 0px 15px; button { border-radius: 0px; } }
+            label {
+                font-weight: 900;
+                font-size: 14px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 0.3rem;
+                display: block;
+            }
+            input {
+                border: none;
+                border-bottom: 1px solid #000;
+                border-radius: 0px;
+                padding-left: 0;
+                font-size: 1rem;
+                &::placeholder { color: rgba(0, 0, 0, 0.3); font-size: 1rem; }
+                &:focus { box-shadow: none; border-color: var(--clearchoice-blue); }
+            }
+            .focus-label:focus-within .form-label { color: var(--clearchoice-blue); transition: var(--smooth-transition); }
+        }
     }
 }

@@ -35,12 +35,14 @@ tabs:
         type: structure
         fields:
             headingTitle:
+              label: Heading Title
               type: text
             headingSubtitle:
+              label: Heading Subtitle
               type: text
             contentSectionText:
               label: Parragraph
-              type: text
+              type: textarea
             contentSectionImg:
               label: Image
               type: files

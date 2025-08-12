@@ -1,38 +1,37 @@
 <form action="">
     <div class="row">
         <div class="col">
-            <div class="input-group mb-3">
-                <label for="firstName" class="input-group form-label">First Name:</label>
-                <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" id="firstName">
+            <div class="focus-label">
+                <label for="firstName" class="form-label">First Name:</label>
+                <input type="text" class="form-control" placeholder="e.g. John" id="firstName" aria-label="First Name">
             </div>
         </div>
         <div class="col">
-            <div class="input-group mb-3">
-                <label for="lastName" class="input-group form-label">Last Name:</label>
-                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" id="lastName">
+            <div class="focus-label">
+                <label for="lastName" class="form-label">Last Name:</label>
+                <input type="text" class="form-control" placeholder="e.g. Smith" id="lastName" aria-label="Last Name">
             </div>
         </div>
         <div class="col">
-            <div class="input-group mb-3">
-                <label for="email" class="input-group form-label">Email:</label>
-                <input type="text" class="form-control" placeholder="Email" aria-label="Email" id="email">
+            <div class="focus-label">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" class="form-control" placeholder="e.g. john@example.com" id="email" aria-label="Email">
             </div>
         </div>
         <div class="col">
-            <div class="input-group mb-3">
-                <label for="phone" class="input-group form-label">Phone:</label>
-                <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" id="phone">
+            <div class="focus-label">
+                <label for="phone" class="form-label">Phone:</label>
+                <input type="tel" class="form-control" placeholder="e.g. 111-222-3333" id="phone" aria-label="Phone">
             </div>
         </div>
         <div class="col">
-            <div class="input-group mb-3">
-                <label for="zipCode" class="input-group form-label">Zip Code:</label>
-                <input type="text" class="form-control" placeholder="Zip Code" aria-label="Zip Code" id="zipCode">
+            <div class="focus-label">
+                <label for="zipCode" class="form-label">Zip Code:</label>
+                <input type="text" class="form-control" placeholder="e.g. 37174" id="zipCode" aria-label="Zip Code">
             </div>
         </div>
         <div class="col d-grid">
-            <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+            <button type="submit" class="btn btn-cta btn-lg btn-block">Get Free Estimate</button>
         </div>
     </div>
-
 </form>
