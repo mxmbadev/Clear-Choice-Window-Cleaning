@@ -24,8 +24,8 @@ Heroctas:
 Contentsection:
 
 - 
-  headingtitle: Who We Are
-  headingsubtitle: About
+  headingtitle: About
+  headingsubtitle: Who We Are
   contentsectiontext: >
     Clear Choice is a licensed and insured
     family owned business in Middle TN. We
@@ -39,8 +39,8 @@ Contentsection:
   contentsectionimg:
     - file://7deyp66hohrt3mmm
 - 
-  headingtitle: What We Do
-  headingsubtitle: Team
+  headingtitle: Team
+  headingsubtitle: What We Do
   contentsectiontext: >
     Cleaning is our expertise. We offer
     various services such as window
@@ -55,15 +55,66 @@ Contentsection:
 
 ----
 
-Servicestitle: 
+Servicestitle: Services
 
 ----
 
-Servicesimg: 
+Servicessubtitle: What We Do
 
 ----
 
-Ourservices: 
+Servicesimg: - file://srgxhgxtpisb4c4e
+
+----
+
+Ourservices:
+
+- 
+  servicename: Window Cleaning
+  servicedesc: >
+    Our window cleaning team and high
+    quality equipment will make sure your
+    business is always spotless and a step
+    ahead of the competition.
+  category: Commercial
+- 
+  servicename: Window Cleaning
+  servicedesc: >
+    We clean houses year round. Especially
+    around the holidays and Season changes
+    to keep houses looking clean all year
+    long.
+  category: Residential
+- 
+  servicename: Pressure Washing
+  servicedesc: >
+    Our professionally experienced cleaning
+    crew does an outstanding job. For us,
+    each cleaning is considered a deep
+    cleaning. Our hardworking crew take each
+    job seriously and strive to receive your
+    satisfaction.
+  category: Commercial
+- 
+  servicename: Pressure Washing
+  servicedesc: >
+    Our professionally experienced cleaning
+    crew does an outstanding job. For us,
+    each cleaning is considered a deep
+    cleaning. Our hardworking crew take each
+    job seriously and strive to receive your
+    satisfaction.
+  category: Residential
+- 
+  servicename: Office Cleaning
+  servicedesc: >
+    Our professionally experienced cleaning
+    crew does an outstanding job. For us,
+    each cleaning is considered a deep
+    cleaning. Our hardworking crew take each
+    job seriously and strive to receive your
+    satisfaction.
+  category: Commercial
 
 ----
 

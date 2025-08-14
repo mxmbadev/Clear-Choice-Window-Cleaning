@@ -7,44 +7,36 @@
         <hr>
     </div>
 </section>
-<section id="contactUs">
+<section id="contactUs" class="pb-5">
     <div class="container">
         <?php snippet('contactForm') ?>
     </div>
 </section>
 
-<secton id="services" class="py-5 my-3">
+<section id="services" class="py-5">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12 text-center toggle-options">
-                <span>Commercial</span><span> | </span><span>Residential</span>
+            <div class="col-sm-12 pb-4">
+                <h2>
+                    <small class="text-uppercase text-muted"><?= esc($page->servicesTitle()) ?></small>
+                </h2>
+                <p class="section__sub-title">
+                    <?= esc($page->servicesSubTitle()) ?>
+                </p>
             </div>
-            <div class="col-sm-12 toggle-menu-options">
-                <div class="row commercial-services">
-                    <div class="col-sm-4">
-                        <div class="service-card">
-                            <h3>Window Cleaning</h3>
-                        </div>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3>Pressure Washing</h3>
-                    </div>
-                    <div class="col-sm-4">
-                        <h3>Office Cleaning</h3>
-                    </div>
-                </div>
-                <div class="row residential-services">
-                    <div class="col-sm-6">
 
-                    </div>
-                    <div class="col-sm-6">
+            <div class="col-sm-3">
+                <?php if ($img = $page->servicesImg()->toFile()): ?>
+                    <img class="services-img" src="<?= $img->url() ?>" alt="<?= esc($page->servicesTitle()) ?>">
+                <?php endif ?>
 
-                    </div>
-                </div>
+            </div>
+            <div class="col-sm-8 offset-sm-1">
+                <?php snippet('services') ?>
             </div>
         </div>
     </div>
-</secton>
+</section>
 
 <section id="about">
     <div class="container py-5 my-5">

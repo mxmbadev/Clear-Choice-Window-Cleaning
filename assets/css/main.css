@@ -77,6 +77,9 @@
     }
 }
 
+section h2 { margin: 0px; small.text-muted { letter-spacing: 2px; font-size: 12px; } }
+section .section__sub-title { font-size: 36px; font-weight: 400 !important; padding-top: 8px; letter-spacing: 1px; }
+
 /* Hero Section */
 #heroImage {
     background-size: cover;
@@ -140,9 +143,14 @@
     }
 }
 
+/* Services */
+#services {
+    .services-img { width: 100%; height: 400px; object-fit: cover; object-position: bottom; }
+    #commercial-tab.active, #residential-tab.active { background-color: var(--clearchoice-blue) !important; border-color: var(--clearchoice-blue) !important; }
+}
+
 /* About Section */
 #about {
-    small.text-muted { letter-spacing: 2px; font-size: 12px; }
     h2 { font-size: 36px; font-weight: 400 !important; padding-top: 10px; }
-    p { font-size: 16px; font-weight: 300; letter-spacing: 1px; color: #757575; line-height: auto;}
+    .content-text p { font-size: 16px; font-weight: 300; letter-spacing: 1px; color: #757575; line-height: auto;}
 }

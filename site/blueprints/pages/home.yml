@@ -53,12 +53,16 @@ tabs:
       servicesTitle:
         label: Heading Title
         type: text
-        width: 1/2
+        width: 1/3
+      servicesSubtitle:
+        label: Sub Title
+        type: text
+        width: 1/3
       servicesImg:
         label: Image
         type: files
         max: 1
-        width: 1/2
+        width: 1/3
       ourServices:
         label: Our Services
         type: structure
@@ -71,6 +75,12 @@ tabs:
             label: Description
             type: textarea
             required: true
+          category:
+            label: Work Type
+            type: tags
+            options:
+              - Commercial
+              - Residential
   testimonials:
     fields:
       reviews:
