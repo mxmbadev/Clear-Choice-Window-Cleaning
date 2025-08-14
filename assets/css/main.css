@@ -139,3 +139,10 @@
         }
     }
 }
+
+/* About Section */
+#about {
+    small.text-muted { letter-spacing: 2px; font-size: 12px; }
+    h2 { font-size: 36px; font-weight: 400 !important; padding-top: 10px; }
+    p { font-size: 16px; font-weight: 300; letter-spacing: 1px; color: #757575; line-height: auto;}
+}

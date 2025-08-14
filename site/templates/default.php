@@ -13,6 +13,39 @@
     </div>
 </section>
 
+<secton id="services" class="py-5 my-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center toggle-options">
+                <span>Commercial</span><span> | </span><span>Residential</span>
+            </div>
+            <div class="col-sm-12 toggle-menu-options">
+                <div class="row commercial-services">
+                    <div class="col-sm-4">
+                        <div class="service-card">
+                            <h3>Window Cleaning</h3>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Pressure Washing</h3>
+                    </div>
+                    <div class="col-sm-4">
+                        <h3>Office Cleaning</h3>
+                    </div>
+                </div>
+                <div class="row residential-services">
+                    <div class="col-sm-6">
+
+                    </div>
+                    <div class="col-sm-6">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</secton>
+
 <section id="about">
     <div class="container py-5 my-5">
         <?php snippet('about') ?>
