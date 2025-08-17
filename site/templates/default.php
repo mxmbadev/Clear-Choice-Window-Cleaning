@@ -44,12 +44,43 @@
     </div>
 </section>
 
-<section id="reviewCTA">
+<section id="seoSection">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 px-5 offset-sm-2 text-center">
+                <h1 class="pb-4 manrope-700">
+                    Residential & Commercial Cleaning Services
+                    <span class="h1-sub d-block">Serving Spring Hill, Columbia, Franklin, Brentwood & Nashville, TN</span>
+                </h1>
+
+                <div class="row">
+                    <div class="col-sm-10 offset-sm-1">
+                        <h2 class="p manrope-200 pb-3">
+                            Expert window cleaning, office cleaning, and pressure washing for homes and businesses — trusted by Tennessee communities
+                        </h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 offset-sm-4">
+                        <a href="#contactUs"
+                            class="btn btn-cta d-block justify-content-center py-2"
+                            aria-label="Schedule window cleaning, office cleaning, or pressure washing in Tennessee">
+                            Schedule a Cleaning
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="reviewSection">
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2>Share Your Experience</h2>
-                <a href="#" class="btn btn-cta">Leave Us a Review</a>
+                <h2 class="pb-5 h1">Share Your Experience</h2>
+                <a href="#" class="btn btn-cta btn-lg">Leave Us a Review</a>
             </div>
         </div>
     </div>

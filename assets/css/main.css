@@ -5,6 +5,15 @@
     font-family: "Manrope", sans-serif;
 }
 
+.p {
+    font-size: 16px !important;
+    line-height: auto;
+}
+
+.lead {
+    font-size: 20px;
+}
+
 :root {
     --bs-body-font-family: font-family: "Manrope", sans-serif !important;
     --clearchoice-blue: #007df2;
@@ -77,14 +86,29 @@
     }
 }
 
-section h2 { margin: 0px; small.text-muted { letter-spacing: 2px; font-size: 12px; } }
-section .section__sub-title { font-size: 36px; font-weight: 400 !important; padding-top: 8px; letter-spacing: 1px; }
+section h2 {
+    margin: 0px;
+
+    small.text-muted {
+        letter-spacing: 2px;
+        font-size: 12px;
+    }
+}
+
+section .section__sub-title {
+    font-size: 36px;
+    font-weight: 400 !important;
+    padding-top: 8px;
+    letter-spacing: 1px;
+}
 
 /* Hero Section */
 #heroImage {
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 8em 0 12em 0;
+    background-attachment: scroll;
 
     h2 {
         font-size: 55px;
@@ -114,13 +138,26 @@ section .section__sub-title { font-size: 36px; font-weight: 400 !important; padd
 /* Contact Form */
 #contactUs {
     margin-top: -50px;
+
     .container {
         background-color: #fff;
         box-shadow: 0 2px 5px #0003;
+
         .row .col {
             padding: 15px;
-            &:first-child { padding-left: 20px; }
-            &:last-child { padding: 0px 0px 0px 15px; button { border-radius: 0px; } }
+
+            &:first-child {
+                padding-left: 20px;
+            }
+
+            &:last-child {
+                padding: 0px 0px 0px 15px;
+
+                button {
+                    border-radius: 0px;
+                }
+            }
+
             label {
                 font-weight: 900;
                 font-size: 14px;
@@ -129,28 +166,90 @@ section .section__sub-title { font-size: 36px; font-weight: 400 !important; padd
                 margin-bottom: 0.3rem;
                 display: block;
             }
+
             input {
                 border: none;
                 border-bottom: 1px solid #000;
                 border-radius: 0px;
                 padding-left: 0;
                 font-size: 1rem;
-                &::placeholder { color: rgba(0, 0, 0, 0.3); font-size: 1rem; }
-                &:focus { box-shadow: none; border-color: var(--clearchoice-blue); }
+
+                &::placeholder {
+                    color: rgba(0, 0, 0, 0.3);
+                    font-size: 1rem;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                    border-color: var(--clearchoice-blue);
+                }
             }
-            .focus-label:focus-within .form-label { color: var(--clearchoice-blue); transition: var(--smooth-transition); }
+
+            .focus-label:focus-within .form-label {
+                color: var(--clearchoice-blue);
+                transition: var(--smooth-transition);
+            }
         }
     }
 }
 
 /* Services */
 #services {
-    .services-img { width: 100%; height: 400px; object-fit: cover; object-position: bottom; }
-    #commercial-tab.active, #residential-tab.active { background-color: var(--clearchoice-blue) !important; border-color: var(--clearchoice-blue) !important; }
+    .services-img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+
+    #commercial-tab.active,
+    #residential-tab.active {
+        background-color: var(--clearchoice-blue) !important;
+        border-color: var(--clearchoice-blue) !important;
+    }
+}
+
+#seoSection {
+    background-image: linear-gradient(#000000c2, #000000c2), url('/assets/img/clean-office-3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8em 0;
+    color: #fff;
+    .h1-sub {
+        display: block;
+        font-size: 1.6rem;
+        font-weight: 400;
+        margin-top: 0.5rem;
+        opacity: 0.9;
+    }
 }
 
 /* About Section */
 #about {
-    h2 { font-size: 36px; font-weight: 400 !important; padding-top: 10px; }
-    .content-text p { font-size: 16px; font-weight: 300; letter-spacing: 1px; color: #757575; line-height: auto;}
+    h2 {
+        font-size: 36px;
+        font-weight: 400 !important;
+        padding-top: 10px;
+    }
+
+    .content-text p {
+        font-size: 16px;
+        font-weight: 300;
+        letter-spacing: 1px;
+        color: #757575;
+        line-height: auto;
+    }
+}
+
+/* Leave Us a Review */
+#reviewSection {
+    background-image: linear-gradient(#00000080, #00000080), url('/assets/img/clean-office-3.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8em 0;
+    color: #fff;
 }
